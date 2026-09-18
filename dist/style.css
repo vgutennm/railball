@@ -17,3 +17,6 @@ nav{flex-wrap:wrap}h1,h2,h3,p{overflow-wrap:break-word}.button{white-space:norma
 
 /* Responsive opening video and relocated full photograph. */
 .hero-video{width:100%;min-width:0;aspect-ratio:16/9;align-self:center;background:#041421;border-bottom:5px solid var(--aqua);box-sizing:content-box;overflow:hidden}.hero-video iframe{display:block;width:100%;height:100%;border:0}.growth-feature-photo{height:auto;aspect-ratio:auto;margin:0 0 20px}.hero-video iframe:focus-visible{outline:3px solid var(--aqua);outline-offset:-3px}@media(max-width:650px){.growth-feature-photo{margin-bottom:12px}}
+
+/* Readable policy pages and shared legal navigation. */
+.policy-page{max-width:850px;margin:0 auto;padding:64px 6% 80px;min-height:70vh}.policy-page h1{font-size:clamp(2.4rem,6vw,3.8rem);line-height:1.1;letter-spacing:-.04em;margin:20px 0}.policy-date{color:#476676;margin:0 0 40px}.policy-page h2{font-size:1.5rem;line-height:1.3;margin:36px 0 14px}.policy-page p{line-height:1.75;overflow-wrap:anywhere}.policy-page article a{text-decoration:underline;text-underline-offset:3px}.policy-links{display:flex;flex-wrap:wrap;gap:12px 24px;font-size:.875rem}.policy-links a{display:inline-flex;align-items:center;min-height:44px}footer{flex-wrap:wrap}footer>span{overflow-wrap:anywhere}@media(max-width:650px){.policy-page{padding-top:40px}.policy-links{width:100%}}
